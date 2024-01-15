@@ -50,24 +50,47 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--violet-blue);
+    background: rgb(30,0,113);
+    background: linear-gradient(0deg, rgba(30,0,113,1) 0%, rgba(138,85,251,1) 100%);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-
 .principal_info p{
     color: var(--light-lavender);
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 16px;
 }
 
-.principal_info h4{
+.principal_info h3{
     color: var(--white);
     font-size: 22px;
 }
 
+.principal_info h4{
+    color: var(--light-lavender);
+    font-size: 16px;
+}
 
+.union{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+}
+
+.red{
+    color: var(--light-red);
+}
+.yellow{
+    color: var(--orangey-yellow);
+}
+.green{
+    color: var(--green-teal);
+}
+.blue{
+    color: var(--cobalt-blue);
+}
 
 /* ----------------Circle----------------*/
 .circle{
@@ -78,7 +101,8 @@ body{
     width: 145px;
     height: 145px;
     border-radius: 50%;
-    background-color: var(--light-royal-blue);
+    background: rgb(64,20,159);
+    background: linear-gradient(0deg, rgba(64,20,159,1) 7%, rgba(70,24,133,1) 29%);
 }
 
 .circle h1{
@@ -96,38 +120,66 @@ body{
 .secondary_info{
     width: 100%;
     height: 460px;
-    margin-right: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+
+}
+
+.numbers{
+    margin-right: 15px;
+}
+
+.gray{
+    color:hsl(0, 1%, 66%)
 }
 
 .summary{
     width: 313px;
     height: 15px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 10px 0px;
 }
 
 .box{
     width: 320px;
     height: 55px;
+    margin: 15px 0px 5px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
-    background-color: rgb(255, 247, 187);
+    border-radius: 10px;
+    background-color: rgb(250, 247, 216);
+}
+
+.box-green-color{
+    background-color: rgb(239, 253, 241);
+}
+
+.box-blue-color{
+    background-color: rgb(229, 233, 251);
+}
+
+.union{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.union h4{
+    padding-left: 15px;
 }
 
 .btn-continue{
-    width: 320px;
-    height: 48px;
+    width: 340px;
+    height: 55px;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
     color: var(--white);
-    background-color: var(--persian-blue);
-    border-radius: 15px;
-    
-
+    border-radius: 25px;
+    background-color:rgb(41, 29, 82);
 }
 
 .attribution { font-size: 11px; text-align: center; }
